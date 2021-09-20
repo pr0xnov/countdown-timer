@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(119, 155, 52);
+      }
+      .timer {
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+      }
+      .field {
+        margin-right: 5px;
+        padding: 10px;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        font-weight: 700;
+        font-size: 20px;
+
+        background: gray;
+        color: rgba(209, 214, 160, 0.952);
+      }
+      .value {
+        font-size: 30px;
+        margin-right: 7px;
+      }
+      .field:last-child {
+        margin-right: 0;
+      }
+    </style>
+
+    <title>Сountdown timer</title>
+    <div class="timer" id="timer-1">
+      <div class="field">
+        <span class="value" data-value="days">0</span>
+        <span class="label">Days</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="hours">0</span>
+        <span class="label">Hours</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="mins">0</span>
+        <span class="label">Minutes</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="secs">0</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+  </head>
+  <script src="index.js"></script>
+  <body></body>
+</html>
