@@ -1,12 +1,3 @@
-# Settings
-.DS_Store/ 
-.vscode/ 
-.idea/
-
-# Output
-build/ 
-dist/
-
 # Logs
 logs
 *.log
